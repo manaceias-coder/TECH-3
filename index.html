@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFerramentas - Loja de Ferramentas</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-home.css">
+    <style>
+        @media (max-width: 768px) {
+            .caixa { flex-direction: column; text-align: center; gap: 15px; }
+            nav ul { flex-direction: column; gap: 10px; padding: 0; }
+            .principal p { font-size: 16px; padding: 0 10px; }
+            .conteudo-beneficios { flex-direction: column; text-align: center; }
+            .imagembeneficios { margin: 20px auto 0; max-width: 90%; }
+            .titulo-centralizado { font-size: 1.5em; }
+        }
+        @media (max-width: 480px) {
+            header h1 img { width: 120px; }
+            nav a { font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="caixa"> 
+            <h1><img src="imagens/cabecalho.jpg" alt="Logo da TechFerramentas, loja especializada em ferramentas"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="recuperar-senha.html">Recuperar Senha</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="banner">
+            <img src="imagens/corpo.jpg" alt="Banner principal com diversas ferramentas industriais e para construção civil">
+        </section>
+
+        <section class="principal">
+            <h2 class="titulo-centralizado">Sobre a TechFerramentas</h2>
+            <p>Localizada em Cachoeiro de Itapemirim, a <strong>TechFerramentas</strong> traz para o mercado o que há de melhor em ferramentas para construção civil, manutenção industrial, marcenaria e uso doméstico. Fundada em 2025, já somos referência na região pela qualidade de nossos produtos e atendimento especializado.</p>
+            <p id="missao"><em>Nossa missão é: <strong>"Oferecer ferramentas duráveis, seguras e de alta performance para ajudar você a realizar seus projetos com excelência."</strong></em></p>
+            <p>Temos uma linha completa de ferramentas manuais, elétricas, acessórios e equipamentos de proteção individual, sempre com os melhores preços e condições de pagamento.</p>
+        </section>
+
+        <section class="beneficios">
+            <div class="conteudo-beneficios">
+                <h3 class="titulo-centralizado">Nossos Diferenciais</h3>
+                <ul class="lista-beneficios">
+                    <li class="itens">Produtos de marcas reconhecidas</li>
+                    <li class="itens">Atendimento especializado</li>
+                    <li class="itens">Entrega rápida na região</li>
+                    <li class="itens">Garantia estendida</li>
+                    <li class="itens">Preços competitivos</li>
+                </ul>
+                <img src="imagens/ferramenta.jpg" alt="Exposição de ferramentas variadas de alta qualidade" class="imagembeneficios">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="imagens/dodape.jpg" alt="Logo da TechFerramentas na cor branca">
+        <p class="copyright">&copy; Copyright TechFerramentas - 2025 | Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

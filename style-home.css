@@ -1,0 +1,40 @@
+#banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.principal {
+    background: #f2f2f2;
+    padding: 40px 30px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.beneficios {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.beneficios ul {
+    width: 45%;
+}
+
+.itens {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 2.2;
+    color: #2c3e50;
+    list-style: disc inside;
+}
+
+.imagembeneficios {
+    width: 55%;
+    border-radius: 8px;
+}

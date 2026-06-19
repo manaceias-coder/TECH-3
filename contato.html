@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - TechFerramentas</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-contato.css">
+    <style>
+        @media (max-width: 768px) {
+            .caixa { flex-direction: column; text-align: center; gap: 15px; }
+            nav ul { flex-direction: column; gap: 10px; padding: 0; }
+            .titulo-centralizado { font-size: 1.5em; }
+            .informacoes-contato { flex-direction: column; }
+            .dados, .formulario { width: 100%; }
+        }
+        @media (max-width: 480px) {
+            header h1 img { width: 120px; }
+            nav a { font-size: 14px; }
+            .formulario input, .formulario textarea { font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="imagens/cabecalho.jpg" alt="Logo TechFerramentas"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="recuperar-senha.html">Recuperar Senha</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contato">
+            <h2 class="titulo-centralizado">Fale Conosco</h2>
+            <div class="informacoes-contato">
+                <div class="dados">
+                    <h3>Endereço</h3>
+                    <p>Rua Principal, 123 - Centro</p>
+                    <p>Cachoeiro de Itapemirim - ES</p>
+                    <p>CEP: 29300-000</p>
+                    <h3>Contato</h3>
+                    <p>Telefone: (28) 3522-0000</p>
+                    <p>WhatsApp: (28) 99999-1111</p>
+                    <p>E-mail: contato@techferramentas.com.br</p>
+                    <h3>Horário de Atendimento</h3>
+                    <p>Segunda a Sexta: 8h às 18h</p>
+                    <p>Sábado: 8h às 12h</p>
+                </div>
+                <form class="formulario">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="telefone">Telefone / WhatsApp</label>
+                    <input type="tel" id="telefone" name="telefone">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    <button type="submit" class="enviar">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="imagens/dodape.jpg" alt="Logo TechFerramentas branco">
+        <p class="copyright">&copy; Copyright TechFerramentas - 2025 | Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

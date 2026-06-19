@@ -1,0 +1,15 @@
+techferramentas/
+├── index.html
+├── produtos.html
+├── contato.html
+├── reset.css
+├── style.css
+├── style.home.css
+└── imagens/
+    ├── logo-techferramentas.png
+    ├── logo-techferramentas-branco.png
+    ├── banner-principal-techferramentas.png
+    ├── imagem-beneficios-techferramentas.png
+    ├── ferramentas-manuais.png
+    ├── ferramentas-eletricas.png
+    └── equipamentos-protecao.png
